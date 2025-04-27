@@ -1,0 +1,31 @@
+[ ]
+
+javascript
+// Variables and primitive data types
+const name = "John";// String
+let age = 25;// Number
+const isStudent = true;// Boolean
+let job = undefined;// Undefined
+const experience = null;// Null
+const id = Symbol("id");// Symbol
+const bigNumber = 9007199254740991n;// BigInt// Reference data types
+const person = {// Object
+  name: "John",
+  age: 25
+};
+const hobbies = ["reading", "coding", "music"];// Array
+function greet() {// Function
+  console.log("Hello!");
+}
+
+// Using console.log
+console.log("String:", name);
+console.log("Number:", age);
+console.log("Boolean:", isStudent);
+console.log("Undefined:", job);
+console.log("Null:", experience);
+console.log("Symbol:", id);
+console.log("BigInt:", bigNumber);
+console.log("Object:", person);
+console.log("Array:", hobbies);
+console.log("Function:", greet);
